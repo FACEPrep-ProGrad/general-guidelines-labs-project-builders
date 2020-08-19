@@ -1,119 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <ul>
-            <li>Radhika Gupta</li>
-            <li>
-                <ul>
-                    <li>HOME</li>
-                    <li>BIO</li>
-                    <li>PORTFOLIO</li>
-                    <li>SKILLS</li>
-                    <li>CONTACT</li>
-                </ul>
-            </li>
-        </ul>
+      <ul>
+        <li class="logo-text">Radhika Gupta</li>
+        <li>
+          <ul>
+            <li><a href="#home" class="nav-link">HOME</a></li>
+            <li><a href="#bio" class="nav-link">BIO</a></li>
+            <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
-    <header>
-        <div>
-            <p> I BELIEVE IN</p>
-            <h1>EAT (); SLEEP (); CODE; REPEAT ();</h1>
-        </div>
+    <header id="home">
+      <div>
+        <p>I BELIEVE IN</p>
+        <h1>EAT (); SLEEP (); CODE(); REPEAT ();</h1>
+      </div>
     </header>
-    <section>
-        <img src="./assets/mypic.jpeg" alt="photo">
+    <section id="bio">
+      <img src="./assets/mypic.jpeg" alt="photo" />
+      <article>
+        <h2>Radhika Gupta</h2>
+        <p>
+          I am a 2020 graduate of Integrated(B.Tech + M.Tech) in Computer
+          Science Engineering with specialization in Software Engineering. I am
+          a keen learner. I've done my thesis in relation classification using
+          machine learning and deep learning techniques.
+          <span class="break"></span>
+
+          I am currently learning front end development and building projects
+          with the knowledge. I've recently enrolled in Front end bootcamp by
+          FACE.
+          <span class="break"></span>
+
+          I am a Software development, Data Science and Machine Learning
+          Enthusiast. I like to explore.
+        </p>
+        <span class="break"></span>
+        <a href="#" class="link-button">Download my Resume</a>
+      </article>
+    </section>
+    <section id="portfolio">
+      <h3>PORTFOLIO</h3>
+      <p>Some of my best projects so far</p>
+      <hr />
+      <div>
         <article>
-            <h2>Radhika Gupta</h2>
-            <p>I am a 2020 graduate of Integrated(B.Tech + M.Tech) in Computer Science Engineering with specialization
-                in Software Engineering. I am a keen learner.
-                I am currently learning front end development and building projects with the knowledge. I've recently
-                enrolled in Front end bootcamp by FACE. </p>
-            <p>I am a Software development, Data Science and Machine Learning Enthusiast.</p>
-            <a href="#">Download my Resume</a>
+          <img src="./assets/arrow.png" alt="pic" width="40" height="30" />
+          <h4>BLOG APP</h4>
+          <p>
+            A blog application based on django framework where one can pen down
+            his/her thoughts.
+          </p>
         </article>
+        <article>
+          <img src="./assets/arrow.png" alt="pic" width="40" height="30" />
+          <h4>HAM SPAM DETECTION</h4>
+          <p>
+            A project where sms's are categorized into ham and spam with the
+            help of naive baye's classification algorithm, GUI is built with the
+            help of python tkinter.
+          </p>
+        </article>
+        <article>
+          <img src="./assets/arrow.png" alt="pic" width="40" height="30" />
+          <h4>TWITTER SENTIMENT ANALYSIS</h4>
+          <p>
+            A program that classifies the tweets into positive, negative or
+            neutral sentiments.
+          </p>
+        </article>
+      </div>
     </section>
-    <section>
-        <h3>PORTFOLIO</h3>
-        <p>Some of my best projects so far</p>
-        <hr>
+    <section id="skills">
+      <h3>SKILLS</h3>
+      <div id="skills-con">
         <div>
-
-            <articles>
-                <img src="./assets/arrow.jpeg" alt="pic">
-                <h4>PERSONAL BLOG</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida nibh sem, ut rutrum dolor
-                    semper nec. Morbi tellus turpis, consectetur non gravida eu, mattis ac felis. Mauris in tortor ac
-                    dui pretium facilisis. Aenean hendrerit quis velit sit amet finibus. Vestibulum maximus cursus
-                    lectus at pretium. Morbi et mi egestas, sodales dui ac, placerat ipsum. Donec et fermentum felis, id
-                    suscipit dui. Proin ut varius arcu. Proin sit amet erat viverra, accumsan libero ac, varius est.</p>
-            </articles>
-            <articles>
-                <img src="./assets/arrow.jpeg" alt="pic">
-                <h4>TIC TAC TOE</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida nibh sem, ut rutrum dolor
-                    semper nec. Morbi tellus turpis, consectetur non gravida eu, mattis ac felis. Mauris in tortor ac
-                    dui pretium facilisis. Aenean hendrerit quis velit sit amet finibus. Vestibulum maximus cursus
-                    lectus at pretium. Morbi et mi egestas, sodales dui ac, placerat ipsum. Donec et fermentum felis, id
-                    suscipit dui. Proin ut varius arcu. Proin sit amet erat viverra, accumsan libero ac, varius est.</p>
-            </articles>
-            <articles>
-                <img src="./assets/arrow.jpeg" alt="pic">
-                <h4>TIME TABLE GENERATOR</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida nibh sem, ut rutrum dolor
-                    semper nec. Morbi tellus turpis, consectetur non gravida eu, mattis ac felis. Mauris in tortor ac
-                    dui pretium facilisis. Aenean hendrerit quis velit sit amet finibus. Vestibulum maximus cursus
-                    lectus at pretium. Morbi et mi egestas, sodales dui ac, placerat ipsum. Donec et fermentum felis, id
-                    suscipit dui. Proin ut varius arcu. Proin sit amet erat viverra, accumsan libero ac, varius est.</p>
-            </articles>
-        </div>
-    </section>
-    <section>
-        <h3>SKILLS</h3>
-        <div>
-            <h4>TECHNICAL SKILLS</h4>
+          <h4>TECHNICAL SKILLS</h4>
+          <ul>
             <li>HTML</li>
-            <li><progress max=100 value=50></progress></li>
+            <li><progress max="100" value="50"></progress></li>
             <li>CSS</li>
-            <li><progress max=100 value=50></progress></li>
+            <li><progress max="100" value="50"></progress></li>
             <li>JAVASCRIPT</li>
-            <li><progress max=100 value=50></progress></li>
+            <li><progress max="100" value="50"></progress></li>
             <li>PYTHON</li>
-            <li><progress max=100 value=80></progress></li>
+            <li><progress max="100" value="80"></progress></li>
             <li>DATA SCIENCE</li>
-            <li><progress max=100 value=70></progress></li>
+            <li><progress max="100" value="70"></progress></li>
             <li>MACHINE LEARNING</li>
-            <li><progress max=100 value=70></progress></li>
+            <li><progress max="100" value="70"></progress></li>
+          </ul>
         </div>
         <div>
-            <h4>LANGUAGES</h4>
+          <h4>LANGUAGES</h4>
+          <ul>
             <li>HINDI</li>
-            <li><progress max=100 value=90></progress></li>
+            <li><progress max="100" value="90"></progress></li>
             <li>ENGLISH</li>
-            <li><progress max=100 value=90></progress></li>
+            <li><progress max="100" value="90"></progress></li>
+          </ul>
         </div>
+      </div>
     </section>
-    <footer>
-        <h3>CONTACT</h3>
-        <form action="">
-            <input type="text" placeholder="ENTER YOUR NAME">
+    <footer id="contact">
+      <h3>CONTACT</h3>
+      <form action="">
+        <input class="input" type="text" placeholder="ENTER YOUR NAME" />
 
-            <input type="text" placeholder="ENTER YOUR EMAIL">
+        <input class="input" type="text" placeholder="ENTER YOUR EMAIL" />
 
-            <input type="text" placeholder="ENTER YOUR MESSAGE">
+        <input class="input" type="text" placeholder="ENTER YOUR MESSAGE" />
 
-            <input type="submit" value="Send Message">
-        </form>
+        <input type="submit" value="Send Message" class="link-button" />
+      </form>
     </footer>
-
-</body>
-
+  </body>
 </html>
