@@ -291,8 +291,8 @@ nav ul li {
     }
 
     #portfolio div article {
-        width: 600px;
-        height: 100px;
+        width: auto;
+        height: auto;
         display: block;
         flex-direction: row;
         padding: 10px;
@@ -300,7 +300,7 @@ nav ul li {
     }
 
     .link-button {
-        width: auto;
+        width: 50%;
         display: block;
         padding: 10px;
         border-radius: 5%;
